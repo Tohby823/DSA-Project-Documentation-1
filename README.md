@@ -75,7 +75,13 @@ Bottom 3:
 ### Case Scenario II – Customer Value & Profitability
 
 ### 6. Most Valuable Customers and What They Buy  
- *[Top 3 customers with frequent purchases – and categories]*
+|S/N|	Customer_Name| Product_Category|	Product_Sub_Category|	Sales|
+|--|-------------|----------------|---------------------|-------|
+|1| Emily Phan|	Technology|	Office Machines|	89061.050|
+|2	|Jasper Cacioppo|	Technology|	Office Machines|	45923.760|
+|3|	Craig Carreira|	Technology|	Office Machines|	41343.210|
+|4|	Dennis Kane|	Technology|	Copiers and Fax|	33367.850|
+|5	|Karen Carlisle|	Technology|	Copiers and Fax|	29884.600|
 
 ### 7. Small Business Customer with the Highest Sales  
  *[Customer Name]* – *[Insert value]*
