@@ -38,15 +38,19 @@ Kultra Mega Stores, headquartered in Lagos, provides office supplies and furnitu
  *TECHNOLOGY* – Total sale: *89061.050*
 
 ### 2. Top 3 and Bottom 3 Regions by Sales  
-Top 3:  
-- Atlantic  – Total sale: *89061.050*
-- Quebec  – Total sale: *45923.760*
-- Prarie  – Total sale: *41343.210*
+Top 3:
+|Region| Sales|
+|-------|------|
+|Atlantic|  89061.050|
+|Quebec|  45923.760|
+|Prarie|  41343.210|
 
 Bottom 3:  
-- West  – Total sale: *2.240*
-- West  – Total sale: *3.200*
-- Yukon  – Total sale: *3.230*
+|Region| Sales|
+|-------|------|
+|West | 2.240|
+|West | 3.200|
+| Yukon | 3.230|
 
 ### 3. Total Sales of Appliances in Ontario  
  *202346.840*
@@ -54,16 +58,18 @@ Bottom 3:
 ### 4. Recommendation to Increase Revenue from Bottom 10 Customers 
 
 *Bottom 10 Customers and the revenue generated*
-- Ricardo Emerson -	2.240
-- Ken Dana - 3.200
-- Benjamin Patterson -	3.230
-- Adam Hart -	3.410
-- Andy Reiter -	3.420
-- Maria Bertelson -	3.630
-- Katrina Bavinger -	3.770
-- Adam Hart -	3.850
-- Jeremy Farry -	3.960
-- Don Weiss -	4.940
+|Customer_Name| Sales|
+|--------------|-----|
+|Ricardo Emerson |2.240|
+| Ken Dana |3.200
+| Benjamin Patterson |	3.230
+| Adam Hart |	3.410
+| Andy Reiter |	3.420
+| Maria Bertelson |3.630
+| Katrina Bavinger |	3.770
+|Adam Hart |	3.850
+| Jeremy Farry | 3.960
+| Don Weiss |	4.940
   
  *To increase revenue from the bottom 10 customers, I recommend implementing targeted promotions based on their previous purchase history and offering personalized discounts to re-engage them. Additionally, bundling low-interest items with popular products can increase order value. It's also important to collect feedback from these customers to understand pain points that might be limiting their spending.*
 
