@@ -192,8 +192,9 @@ GROUP BY Ship_Mode, Order_Priority
 ORDER BY Ship_Mode, Order_Priority
 
 ```
+
+
 ### Analysis
 
-
----
+[SQL Queries](https://github.com/user-attachments/assets/2d5fb221-0d07-4cd7-a645-f4670de619a6)
 
