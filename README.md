@@ -29,7 +29,7 @@ Kultra Mega Stores, headquartered in Lagos, provides office supplies and furnitu
 - **SQL Server** [Download Here](https://learn.microsoft.com/en-us/ssms/install/install)
   – For data querying and insight extraction  
 - **Microsoft Excel** [Download Here](https://microsoft.com)
-  – For preliminary data inspection  
+  – For preliminary data inspection, exports and visualization.  
 - **GitHub** [Download Here](https://github.com)
   – For documentation and portfolio hosting
 
@@ -229,4 +229,4 @@ Kultra Mega Stores Case Study — obtained from the Learning Management System (
 
 _SQL Server_ – For data querying and analysis
 
-_Microsoft Excel_ – For preliminary review and exports
+_Microsoft Excel_ – For preliminary review, exports and visualization.
