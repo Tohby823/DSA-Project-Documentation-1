@@ -27,10 +27,15 @@ Kultra Mega Stores, headquartered in Lagos, provides office supplies and furnitu
 ### Tools Used
 
 - **SQL Server** [Download Here](https://learn.microsoft.com/en-us/ssms/install/install)
-  – For data querying and insight extraction  
+
+  – For data querying and insight extraction
+    
 - **Microsoft Excel** [Download Here](https://microsoft.com)
-  – For preliminary data inspection, exports and visualization.  
+
+  – For preliminary data inspection, exports and visualization.
+    
 - **GitHub** [Download Here](https://github.com)
+  
   – For documentation and portfolio hosting
 
 ---
