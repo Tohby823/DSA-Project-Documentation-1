@@ -110,7 +110,7 @@ Bottom 3:
 ### 10. Customers Who Returned Items and Their Segment   
 While the dataset does not explicitly track returned items, I used negative profit values as a proxy to identify customers likely associated with returns or loss-making orders.
 
-A total of 308 customers recorded negative profit, which could indicate returns, over-discounts, or shipping-related losses. These customers were found across all three segments—Consumer, Corporate, and Small Business—with a noticeable concentration in the Consumer segment.
+A total of 308 customers recorded negative profit, which could indicate returns, over-discounts, or shipping-related losses. These customers were found across all four segments—Home Office (70), Consumer (60), Corporate (114), and Small Business (64) —with a noticeable concentration in the Corporate segment with a total of 114 returns. 
 
 | **Customer_Name** | **Customer_Segment** | **Profit** |
 | ------------------ | --------------------- | ---------- |
@@ -140,7 +140,7 @@ A total of 308 customers recorded negative profit, which could indicate returns,
 | Joe Elijah         | Home Office           | -324.020   |
 | Irene Maddox       | Consumer              | -6240.160  |
 
-The rest of the table is in an excel sheet uploaded to this repository
+_The rest of the table is in an excel sheet uploaded to this repository_
 
 
 ### 11. Shipping Cost Appropriateness Based on Order Priority  
@@ -170,26 +170,27 @@ Based on this, two key issues emerge:
 
 ### Data Analysis
 ### Some SQL Queries Used
+1. Product category that had the highest sales
 ``` SQL
 SELECT TOP 1 product_category, sales
 FROM [KMS Order Table]
 ORDER BY Sales DESC
 
+```
+2. Corporate Customer with the most orders
+``` SQL
 Select top 1 Customer_Name, customer_segment, Order_Quantity
 from [KMS Order Table]
 where Customer_Segment = 'Corporate'
 order by Order_Quantity desc
 
-SELECT 
-  Ship_Mode, 
-  Order_Priority, 
-  COUNT(*) AS Num_Orders,
-  SUM(Shipping_Cost) AS Total_Shipping_Cost,
-  AVG(Shipping_Cost) AS Avg_Shipping_Cost
+```
+3. Total Sales of Appliances in Ontario
+``` SQL
+Select Province, product_sub_category, sum(sales) as REVENUE
 FROM [KMS Order Table]
-WHERE Ship_Mode IN ('Delivery Truck', 'Express Air')
-GROUP BY Ship_Mode, Order_Priority
-ORDER BY Ship_Mode, Order_Priority
+Where Province = 'Ontario' and product_sub_category = 'Appliances'
+group by Province, product_sub_category
 
 ```
 
@@ -198,3 +199,32 @@ ORDER BY Ship_Mode, Order_Priority
 
 [SQL Queries](https://github.com/user-attachments/assets/2d5fb221-0d07-4cd7-a645-f4670de619a6)
 
+### Results/Findings
+Results and Findings
+The analysis of the Kultra Mega Stores (KMS) dataset provided several key insights across product performance, customer value, and shipping efficiency from 2009 to 2012:
+
+- The product category with the highest total sales was identified, indicating a strong customer demand and potential focus area for future marketing and inventory management.
+- The top 3 and bottom 3 regions were ranked based on sales volume. These insights help KMS understand regional performance disparities and potential opportunities for targeted sales strategies.
+- The bottom 10 customers generated significantly lower revenue. Recommendations such as personalized promotions, loyalty programs, or product bundling can help increase engagement and sales from this segment.
+- Among all shipping methods, one incurred the highest cost. This highlights a need to balance shipping speed with profitability and possibly review logistics strategy for cost control.
+- The most valuable customers were identified, along with their preferred product categories. This helps in creating targeted campaigns and retaining top customers through tailored offers.
+- Segment-wise analysis (Consumer, Corporate, Small Business, Home Office) provided insight into buying behavior and profitability. Some customers had consistently negative profits, possibly indicating returns or excessive discounts.
+- An evaluation of shipping methods versus order priority revealed if high-cost shipping methods were justified by urgency. This informed recommendations on optimizing shipping decisions.
+- Although no explicit "returns" column existed, customers with negative profit margins were flagged as likely cases of returned items or failed transactions. Segment analysis of these customers was conducted for further insights.
+
+### Limitations
+- The dataset lacked an explicit column for returned products. Profit values were used as a proxy (negative profits) to infer returns, which may not be completely accurate.
+- The dataset only covered transactions from 2009 to 2012. More recent data could provide better relevance for current business decisions.
+- The sales and profit figures had no specified currency unit, making financial interpretation somewhat ambiguous.
+- The data did not include customer satisfaction ratings or reviews, which could have enriched customer segmentation and value analysis.
+- The shipping method efficiency was analyzed based on order priority and cost, but without actual delivery time or customer satisfaction data.
+  
+### References 
+**Dataset Source:**
+Kultra Mega Stores Case Study — obtained from the Learning Management System (LMS) of the DSA Data Analysis Program, under the Capstone Project Files.
+
+**Tools Used:**
+
+_SQL Server_ – For data querying and analysis
+
+_Microsoft Excel_ – For preliminary review and exports
