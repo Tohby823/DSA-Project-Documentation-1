@@ -242,10 +242,17 @@ The analysis of the Kultra Mega Stores (KMS) dataset provided several key insigh
 - The sales and profit figures had no specified currency unit, making financial interpretation somewhat ambiguous.
 - The data did not include customer satisfaction ratings or reviews, which could have enriched customer segmentation and value analysis.
 - The shipping method efficiency was analyzed based on order priority and cost, but without actual delivery time or customer satisfaction data.
+
+### Recomendations
+- Focus marketing and inventory on Technology products, especially Office Machines, as they drive the highest sales.
+- Target underperforming regions like West and Yukon with localized promotions and logistics improvements.
+- Re-engage low-spending customers through personalized offers, bundling, and feedback collection.
+- Audit Express Express Delivery and Delivery Truck usage for low-priority orders and High-priority orders; as they are often misaligned with urgency.
+- Investigate negative profit customers, especially in Corporate segment, to address possible returns, excessive discounts, or data errors.
   
 ### References 
 **Dataset Source:**
-Kultra Mega Stores Case Study — obtained from the Learning Management System (LMS) of the DSA Data Analysis Program, under the Capstone Project Files.
+Kultra Mega Stores Case Study, obtained from the Learning Management System (LMS) of the DSA Data Analysis Program, under the Capstone Project Files.
 
 **Tools Used:**
 
