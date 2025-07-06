@@ -140,7 +140,7 @@ A total of 308 customers recorded negative profit, which could indicate returns,
 | Joe Elijah         | Home Office           | -324.020   |
 | Irene Maddox       | Consumer              | -6240.160  |
 
-_The rest of the table is in an excel sheet uploaded to this repository_
+_The rest of the table is in an excel sheet uploaded to this repository_ [Click Here](Negative_Profit_Customers.csv)
 
 
 ### 11. Shipping Cost Appropriateness Based on Order Priority  
@@ -198,6 +198,17 @@ group by Province, product_sub_category
 ### Analysis
 
 [SQL Queries](https://github.com/user-attachments/assets/2d5fb221-0d07-4cd7-a645-f4670de619a6)
+
+
+
+
+
+![Bar chart showing the bottom 3 regions based on sales](https://github.com/user-attachments/assets/456fa235-a945-47e3-b79c-8f78138e4767)
+
+
+
+
+![Bar chart showing the top 3 regions based on sales](https://github.com/user-attachments/assets/802a2e0e-5881-40e2-8be2-a0b6e452f064)
 
 
 
