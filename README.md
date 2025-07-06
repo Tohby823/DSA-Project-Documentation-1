@@ -28,7 +28,7 @@ Kultra Mega Stores, headquartered in Lagos, provides office supplies and furnitu
 
 - **SQL Server** [Download Here](https://learn.microsoft.com/en-us/ssms/install/install)
   – For data querying and insight extraction  
-- **Microsoft Excel** [Download Here](https://microsoftexcel.com)
+- **Microsoft Excel** [Download Here](https://microsoft.com)
   – For preliminary data inspection  
 - **GitHub** [Download Here](https://github.com)
   – For documentation and portfolio hosting
@@ -169,42 +169,29 @@ Based on this, two key issues emerge:
 ---
 
 ### Data Analysis
-### SQL Techniques Used
+### Some SQL Queries Used
+``` SQL
+SELECT TOP 1 product_category, sales
+FROM [KMS Order Table]
+ORDER BY Sales DESC
 
-- `GROUP BY`, `ORDER BY`, `LIMIT`  
-- Aggregates: `SUM()`, `COUNT()`, `AVG()`, `MAX()`  
-- `CASE WHEN` for conditional analysis  
-- Filtering: `WHERE`, `IN`, `BETWEEN`  
+Select top 1 Customer_Name, customer_segment, Order_Quantity
+from [KMS Order Table]
+where Customer_Segment = 'Corporate'
+order by Order_Quantity desc
 
+SELECT 
+  Ship_Mode, 
+  Order_Priority, 
+  COUNT(*) AS Num_Orders,
+  SUM(Shipping_Cost) AS Total_Shipping_Cost,
+  AVG(Shipping_Cost) AS Avg_Shipping_Cost
+FROM [KMS Order Table]
+WHERE Ship_Mode IN ('Delivery Truck', 'Express Air')
+GROUP BY Ship_Mode, Order_Priority
+ORDER BY Ship_Mode, Order_Priority
+
+```
 
 ---
 
-## 📈 Business Insights Summary
-
-- Top-selling product categories and high-performing regions identified  
-- Shipping costs need realignment with priority levels to reduce inefficiency  
-- Targeting underperforming customers and regions can boost revenue  
-- Customer segmentation reveals key opportunities for tailored marketing
-
----
-
-##  Next Steps
-
-- Visualize customer and sales trends using Power BI  
-- Add seasonality and time-based trend analysis  
-- Create a dashboard summary for business managers
-
----
-
-## Folder Structure (Optional)
-
-```bash sql-kultra-mega-stores
-├── queries/
-│   ├── case_scenario_1.sql
-│   └── case_scenario_2.sql
-├── README.md
-├── results/
-│   ├── top_customers.csv
-│   └── shipping_costs.csv
-└── dataset/
-    └── KMS_orders_2009_2012.xlsx
