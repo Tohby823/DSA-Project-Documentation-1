@@ -199,18 +199,22 @@ group by Province, product_sub_category
 
 
 
-![SQL Queries](https://github.com/user-attachments/assets/2d5fb221-0d07-4cd7-a645-f4670de619a6)
+![SQL Queries.png](https://github.com/user-attachments/assets/2d5fb221-0d07-4cd7-a645-f4670de619a6)
 
 
 
 
 
-![Bar chart showing the bottom 3 regions based on sales](https://github.com/user-attachments/assets/456fa235-a945-47e3-b79c-8f78138e4767)
+![Bar chart showing the bottom 3 regions based on sales.png](https://github.com/user-attachments/assets/456fa235-a945-47e3-b79c-8f78138e4767)
 
 
 
 
-![Bar chart showing the top 3 regions based on sales](https://github.com/user-attachments/assets/802a2e0e-5881-40e2-8be2-a0b6e452f064)
+![Bar chart showing the top 3 regions based on sales.png](https://github.com/user-attachments/assets/802a2e0e-5881-40e2-8be2-a0b6e452f064)
+
+
+
+![Most Valuable Customers and What They Buy.png](https://github.com/user-attachments/assets/861da790-4368-4a8d-a24a-56dc9cac2961)
 
 
 
