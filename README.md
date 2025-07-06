@@ -197,7 +197,9 @@ group by Province, product_sub_category
 
 ### Analysis
 
-[SQL Queries](https://github.com/user-attachments/assets/2d5fb221-0d07-4cd7-a645-f4670de619a6)
+
+
+![SQL Queries](https://github.com/user-attachments/assets/2d5fb221-0d07-4cd7-a645-f4670de619a6)
 
 
 
@@ -241,3 +243,9 @@ Kultra Mega Stores Case Study — obtained from the Learning Management System (
 _SQL Server_ – For data querying and analysis
 
 _Microsoft Excel_ – For preliminary review, exports and visualization.
+
+
+
+
+
+
