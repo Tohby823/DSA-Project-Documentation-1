@@ -199,6 +199,8 @@ group by Province, product_sub_category
 
 [SQL Queries](https://github.com/user-attachments/assets/2d5fb221-0d07-4cd7-a645-f4670de619a6)
 
+
+
 ### Results/Findings
 Results and Findings
 The analysis of the Kultra Mega Stores (KMS) dataset provided several key insights across product performance, customer value, and shipping efficiency from 2009 to 2012:
