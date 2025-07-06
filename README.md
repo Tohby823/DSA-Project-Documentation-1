@@ -192,6 +192,8 @@ GROUP BY Ship_Mode, Order_Priority
 ORDER BY Ship_Mode, Order_Priority
 
 ```
+### Analysis
+
 
 ---
 
